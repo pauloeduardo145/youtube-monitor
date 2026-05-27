@@ -2,7 +2,7 @@ import feedparser
 import time
 import subprocess
 
-CANAL_ID = ""
+CANAL_ID = "UCD72t672otDUxeJViXu3gwA"
 
 URL = f"https://youtube.com/feeds/videos.xml?channel_id{CANAL_ID}"
 
@@ -33,7 +33,7 @@ while True:
                 "termux-notification",
                 "--title", "Novo video!",
                 "--content", titulo
-            )]
+            ])
 
             print(f"Novo video: {titulo}")
             print(link)
