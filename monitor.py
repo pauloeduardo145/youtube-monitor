@@ -2,7 +2,7 @@ import feedparser
 import time
 import subprocess
 
-CANAL_ID = "UCD72t672otDUxeJViXu3gwA"
+CANAL_ID = "ID_DO_CANAL"
 
 URL = f"https://youtube.com/feeds/videos.xml?channel_id{CANAL_ID}"
 
